@@ -5,6 +5,7 @@ process.on("message",(msg)=>{
 
 let startTime = new Date();
 console.log("child!!")
+process.send("msg from child!")
 
 let num = 0;
 
